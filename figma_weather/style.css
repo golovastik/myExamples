@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+}
+.block-wrap{
+  background-image: url("img/bg_forest.png") ;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* height: 768px; */
+  display: grid;
+}
+.wrap{
+  margin: 67px auto 30px auto;
+  width: 375px;
+  height: 667px;
+  border: 1px solid black;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
+}
