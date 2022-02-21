@@ -1,17 +1,93 @@
 *{
   margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 .block-wrap{
   background-image: url("img/bg_forest.png") ;
   background-repeat: no-repeat;
   background-position: center center;
-  /* height: 768px; */
-  display: grid;
+  padding: 60px 0 30px 0;
 }
 .wrap{
-  margin: 67px auto 30px auto;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
   width: 375px;
   height: 667px;
   border: 1px solid black;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
+  background: linear-gradient(
+                              180deg, 
+                              rgba(255, 255, 255, 0.4) 0%, 
+                              rgba(255, 255, 255, 0.1) 100%);
+  backdrop-filter: blur(10px);
+  border-radius: 30px;
+}
+.header-weather{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 31px 0 73px 0;
+}
+.city-weather{
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 35px;
+  color: #546269;
+}
+.temperature-city-weather{
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 118px;
+  color: #546269;
+  text-align: left;
+}
+.header-degree-weather{
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 82px;
+  color: #D7D5D5;
+  position: relative;
+  bottom: 20px;
+}
+.header-weather h3{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #546269;
+}
+
+.today-weather{
+  display: flex;
+  justify-content:space-around;
+}
+.today-weather article{
+  margin: 0 10px;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.temperature-today-weather{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #D7D5D5;
+}
+
+.week-weather{
+  display: flex;
+  flex-direction: column;
+  margin: 40px 20px 0 20px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.week-weather article{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
 }
