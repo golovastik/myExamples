@@ -15,12 +15,14 @@
   width: 375px;
   height: 667px;
   border: 1px solid black;
+  border-radius: 30px;
+  /* border-image-slice: 1; */
   background: linear-gradient(
                               180deg, 
                               rgba(255, 255, 255, 0.4) 0%, 
                               rgba(255, 255, 255, 0.1) 100%);
   backdrop-filter: blur(10px);
-  border-radius: 30px;
+  
 }
 .header-weather{
   display: flex;
