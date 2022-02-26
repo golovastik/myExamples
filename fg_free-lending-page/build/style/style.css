@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /* Указываем box sizing */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
 *,
 *::before,
 *::after {
@@ -57,4 +58,9 @@ button,
 textarea,
 select {
   font: inherit;
+}
+
+@font-face {
+  font-family: "SansForgetica";
+  src: url("../fonts/SansForgetica-Regular.otf");
 }
